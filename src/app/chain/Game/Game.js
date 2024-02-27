@@ -1,14 +1,21 @@
 import React from "react";
-import Shark from "../../assets/sharkgif.png";
-import styles from './game.module.css' 
+import Shark from "../../../assets/sharkgif.png";
+import "./game.css";
 
 export default function Game() {
   return (
-    <div className={styles.parentDiv}>
-        <p className="text">
-        Want to play a  <span className="special-text">Valentines</span> Game?
-        </p>
-      <img src={Shark} alt="Shark" />
+    <div className="parentDiv">
+      <p className="text">
+        Want to play a <br /> <span className="specialText">Valentines</span>
+        <br /> Game?
+      </p>
+      <div className="down">
+        <div className="btnGroup">
+          <button className="button">PLAY 3 </button>
+          <button className="button">No.....</button>
+        </div>
+        <img src={Shark} alt="Shark" />
+      </div>
     </div>
   );
 }

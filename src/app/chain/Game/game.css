@@ -1,0 +1,43 @@
+.parentDiv {
+  display: flex;
+  background: #fda0c7;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.text {
+  font-family: Lilita One;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 138px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff6fa;
+}
+.specialText {
+  color: #bb3e72;
+  font-family: "Lily Script One";
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 138px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.down{
+  /* flex: 1;  */
+}
+.btnGroup{
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  border: 17px solid #bb3e72; 
+  font-family: Lilita One;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5555A2;
+}
