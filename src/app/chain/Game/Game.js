@@ -14,7 +14,7 @@ export default function Game() {
           <button className="button">PLAY 3 </button>
           <button className="button">No.....</button>
         </div>
-        <img src={Shark} alt="Shark" />
+        <img className="image" src={Shark} alt="Shark" />
       </div>
     </div>
   );
