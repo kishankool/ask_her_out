@@ -1,7 +1,14 @@
 import React from 'react'
+import "./wrong.css"
 
 export default function Wrong() {
   return (
-    <div>Wrong</div>
+    <div className='wrong'>
+      <div className='upperText'>
+        No...<br />
+        Wrong Answer
+      </div>
+      <button className="button">Try Again :( </button>
+    </div>
   )
 }
